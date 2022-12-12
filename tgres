@@ -1,0 +1,12 @@
+                                                 List of databases
+   Name    |  Owner   | Encoding |   Collate   |    Ctype    | ICU Locale | Locale Provider |   Access privileges   
+-----------+----------+----------+-------------+-------------+------------+-----------------+-----------------------
+ postgres  | ali      | UTF8     | en_US.UTF-8 | en_US.UTF-8 |            | libc            | 
+ rdsadmin  | rdsadmin | UTF8     | en_US.UTF-8 | en_US.UTF-8 |            | libc            | rdsadmin=CTc/rdsadmin+
+           |          |          |             |             |            |                 | rdstopmgr=Tc/rdsadmin
+ template0 | rdsadmin | UTF8     | en_US.UTF-8 | en_US.UTF-8 |            | libc            | =c/rdsadmin          +
+           |          |          |             |             |            |                 | rdsadmin=CTc/rdsadmin
+ template1 | ali      | UTF8     | en_US.UTF-8 | en_US.UTF-8 |            | libc            | =c/ali               +
+           |          |          |             |             |            |                 | ali=CTc/ali
+(4 rows)
+
